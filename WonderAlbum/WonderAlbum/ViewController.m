@@ -16,8 +16,41 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    //底部Scroll
+    _mainScroll = [[UIScrollView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:_mainScroll];
+    
+    _topbar = [[TopBar alloc] initWithFrame:self.view.bounds];
+    _topbar.controller = self;
+    [self.view addSubview:_topbar];
+    
+    
+    
 }
 
+
+
+
+
+#pragma mark 屏幕方向
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
+-(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+    return UIInterfaceOrientationPortrait;
+}
+
+#pragma mark 状态栏设置
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+- (BOOL)prefersStatusBarHidden {
+    return NO;
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [super touchesBegan:touches withEvent:event];
+    [self.view resignKeyBoard];
+}
 
 @end

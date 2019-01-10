@@ -6,9 +6,13 @@
 //  Copyright © 2019 david. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BasicViewController.h"
+#import "TopBar.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : BasicViewController<UIScrollViewDelegate>
+
+@property(nonatomic, strong) UIScrollView *mainScroll;
+@property(nonatomic, strong) TopBar *topbar;
 
 
 @end

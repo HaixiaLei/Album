@@ -8,7 +8,6 @@
 
 #import "UIView+Additional.h"
 #import "NSTimer+Additional.h"
-#import "NSTimer+Additional.h"
 
 @implementation UIView (Additional)
 

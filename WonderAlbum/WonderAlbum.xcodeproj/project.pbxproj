@@ -33,6 +33,18 @@
 		63B15C7A21DF412F0055BCFE /* NSSet+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B15C6321DF412F0055BCFE /* NSSet+HYBUnicodeReadable.m */; };
 		63B15C7B21DF412F0055BCFE /* NSArray+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B15C6721DF412F0055BCFE /* NSArray+Additional.m */; };
 		63B15C7C21DF412F0055BCFE /* NSString+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B15C6821DF412F0055BCFE /* NSString+Additional.m */; };
+		63B6EE0021E04EF900B05C67 /* QQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6EDEF21E04EF900B05C67 /* QQButton.m */; };
+		63B6EE0321E04EF900B05C67 /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B6EDF721E04EF900B05C67 /* WSDatePickerView.xib */; };
+		63B6EE0421E04EF900B05C67 /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6EDF821E04EF900B05C67 /* WSDatePickerView.m */; };
+		63B6EE0521E04EF900B05C67 /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6EDFA21E04EF900B05C67 /* UIImage+FlatUI.m */; };
+		63B6EE0621E04EF900B05C67 /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6EDFE21E04EF900B05C67 /* FUIButton.m */; };
+		63B6EE0721E04EF900B05C67 /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6EDFF21E04EF900B05C67 /* UIColor+FlatUI.m */; };
+		63B6EE0B21E0552300B05C67 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6EE0A21E0552300B05C67 /* BasicViewController.m */; };
+		63B6EE0F21E05A2000B05C67 /* TopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6EE0E21E05A2000B05C67 /* TopBar.m */; };
+		63B6EE1521E0625100B05C67 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6EE1121E0625100B05C67 /* Tools.m */; };
+		63B6EE1621E0625100B05C67 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6EE1421E0625100B05C67 /* Singleton.m */; };
+		63D2C33A21E0ACFF00FE6038 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63D2C33921E0ACFE00FE6038 /* iconfont.ttf */; };
+		63F99DE021E081CE000C91B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63F99DE221E081CE000C91B2 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +99,34 @@
 		63B15C6721DF412F0055BCFE /* NSArray+Additional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Additional.m"; sourceTree = "<group>"; };
 		63B15C6821DF412F0055BCFE /* NSString+Additional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additional.m"; sourceTree = "<group>"; };
 		63B15C6921DF412F0055BCFE /* NJDBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJDBezierCurve.h; sourceTree = "<group>"; };
+		63B6EDEF21E04EF900B05C67 /* QQButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQButton.m; sourceTree = "<group>"; };
+		63B6EDF021E04EF900B05C67 /* QQButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQButton.h; sourceTree = "<group>"; };
+		63B6EDF621E04EF900B05C67 /* WSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerView.h; sourceTree = "<group>"; };
+		63B6EDF721E04EF900B05C67 /* WSDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDatePickerView.xib; sourceTree = "<group>"; };
+		63B6EDF821E04EF900B05C67 /* WSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerView.m; sourceTree = "<group>"; };
+		63B6EDFA21E04EF900B05C67 /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlatUI.m"; sourceTree = "<group>"; };
+		63B6EDFB21E04EF900B05C67 /* FUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIButton.h; sourceTree = "<group>"; };
+		63B6EDFC21E04EF900B05C67 /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		63B6EDFD21E04EF900B05C67 /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlatUI.h"; sourceTree = "<group>"; };
+		63B6EDFE21E04EF900B05C67 /* FUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIButton.m; sourceTree = "<group>"; };
+		63B6EDFF21E04EF900B05C67 /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		63B6EE0921E0552300B05C67 /* BasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		63B6EE0A21E0552300B05C67 /* BasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		63B6EE0D21E05A2000B05C67 /* TopBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopBar.h; sourceTree = "<group>"; };
+		63B6EE0E21E05A2000B05C67 /* TopBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopBar.m; sourceTree = "<group>"; };
+		63B6EE1121E0625100B05C67 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		63B6EE1221E0625100B05C67 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		63B6EE1321E0625100B05C67 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		63B6EE1421E0625100B05C67 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		63D2C33921E0ACFE00FE6038 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		63F99DE121E081CE000C91B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63F99DE321E082F2000C91B2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		63F99DE421E082F2000C91B2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		63F99DE521E082F2000C91B2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		63F99DE621E08309000C91B2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		63F99DE721E08309000C91B2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		63F99DE821E08309000C91B2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		63F99DEF21E0892C000C91B2 /* iconfont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iconfont.h; sourceTree = "<group>"; };
 		75FBE1BC9064EE2332223A96 /* Pods-WonderAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonderAlbum.release.xcconfig"; path = "Pods/Target Support Files/Pods-WonderAlbum/Pods-WonderAlbum.release.xcconfig"; sourceTree = "<group>"; };
 		F8536874299174BEED8420FA /* libPods-WonderAlbum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WonderAlbum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -133,10 +173,14 @@
 		63B15C2821DF2FA90055BCFE /* WonderAlbum */ = {
 			isa = PBXGroup;
 			children = (
+				63B6EE1021E0623200B05C67 /* 控制单元(网络、单例、工具) */,
+				63B6EE0821E0550A00B05C67 /* BasicUI */,
+				63B6EDED21E04EF900B05C67 /* 第三方控件 */,
 				63B15C2921DF2FA90055BCFE /* AppDelegate.h */,
 				63B15C2A21DF2FA90055BCFE /* AppDelegate.m */,
 				63B15C2C21DF2FA90055BCFE /* ViewController.h */,
 				63B15C2D21DF2FA90055BCFE /* ViewController.m */,
+				63B6EE0C21E059F000B05C67 /* 自定义UI */,
 				63B15C4221DF412F0055BCFE /* 类别 */,
 				63B15C3F21DF3EE50055BCFE /* Support */,
 			);
@@ -146,6 +190,7 @@
 		63B15C3F21DF3EE50055BCFE /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				63F99DF021E0896C000C91B2 /* IconFont */,
 				63B15C2F21DF2FA90055BCFE /* Main.storyboard */,
 				63B15C3221DF2FA90055BCFE /* Assets.xcassets */,
 				63B15C4021DF3F410055BCFE /* PrefixHeader.pch */,
@@ -153,6 +198,7 @@
 				63B15C3721DF2FA90055BCFE /* Info.plist */,
 				63B15C3821DF2FA90055BCFE /* main.m */,
 				63B15C4121DF40EF0055BCFE /* Defines.h */,
+				63F99DE221E081CE000C91B2 /* InfoPlist.strings */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -160,9 +206,11 @@
 		63B15C4221DF412F0055BCFE /* 类别 */ = {
 			isa = PBXGroup;
 			children = (
+				63B15C4E21DF412F0055BCFE /* NSArray+Additional.h */,
+				63B15C4521DF412F0055BCFE /* NSMutableAttributedString+Additional.h */,
 				63B15C4321DF412F0055BCFE /* NSString+Hash.m */,
 				63B15C4421DF412F0055BCFE /* EnlargeButton.h */,
-				63B15C4521DF412F0055BCFE /* NSMutableAttributedString+Additional.h */,
+				63B15C5421DF412F0055BCFE /* EnlargeButton.m */,
 				63B15C4621DF412F0055BCFE /* UIImage+BlurredFrame.m */,
 				63B15C4721DF412F0055BCFE /* UIButton+Additional.h */,
 				63B15C4821DF412F0055BCFE /* NSTimer+Additional.m */,
@@ -171,13 +219,11 @@
 				63B15C4B21DF412F0055BCFE /* UIImage+ImageEffects.h */,
 				63B15C4C21DF412F0055BCFE /* NSString+Additional.h */,
 				63B15C4D21DF412F0055BCFE /* NJDBezierCurve.m */,
-				63B15C4E21DF412F0055BCFE /* NSArray+Additional.h */,
 				63B15C4F21DF412F0055BCFE /* UIImage+Alpha.h */,
 				63B15C5021DF412F0055BCFE /* NSDictionary+Additional.h */,
 				63B15C5121DF412F0055BCFE /* NSError+Additional.h */,
 				63B15C5221DF412F0055BCFE /* UIImage+Additional.h */,
 				63B15C5321DF412F0055BCFE /* NSMutableAttributedString+Additional.m */,
-				63B15C5421DF412F0055BCFE /* EnlargeButton.m */,
 				63B15C5521DF412F0055BCFE /* NSString+Hash.h */,
 				63B15C5621DF412F0055BCFE /* NSDate+Extension.m */,
 				63B15C5721DF412F0055BCFE /* UIView+Additional.h */,
@@ -189,10 +235,10 @@
 				63B15C5D21DF412F0055BCFE /* NSError+Additional.m */,
 				63B15C5E21DF412F0055BCFE /* NSDictionary+Additional.m */,
 				63B15C5F21DF412F0055BCFE /* UIImage+Alpha.m */,
-				63B15C6021DF412F0055BCFE /* xcode输出和显示 */,
 				63B15C6721DF412F0055BCFE /* NSArray+Additional.m */,
 				63B15C6821DF412F0055BCFE /* NSString+Additional.m */,
 				63B15C6921DF412F0055BCFE /* NJDBezierCurve.h */,
+				63B15C6021DF412F0055BCFE /* xcode输出和显示 */,
 			);
 			path = "类别";
 			sourceTree = "<group>";
@@ -208,6 +254,86 @@
 				63B15C6621DF412F0055BCFE /* NSSet+HYBUnicodeReadable.h */,
 			);
 			path = "xcode输出和显示";
+			sourceTree = "<group>";
+		};
+		63B6EDED21E04EF900B05C67 /* 第三方控件 */ = {
+			isa = PBXGroup;
+			children = (
+				63B6EDEE21E04EF900B05C67 /* QQButton */,
+				63B6EDF521E04EF900B05C67 /* WSDatePickerView */,
+				63B6EDF921E04EF900B05C67 /* FlatButton */,
+			);
+			path = "第三方控件";
+			sourceTree = "<group>";
+		};
+		63B6EDEE21E04EF900B05C67 /* QQButton */ = {
+			isa = PBXGroup;
+			children = (
+				63B6EDEF21E04EF900B05C67 /* QQButton.m */,
+				63B6EDF021E04EF900B05C67 /* QQButton.h */,
+			);
+			path = QQButton;
+			sourceTree = "<group>";
+		};
+		63B6EDF521E04EF900B05C67 /* WSDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				63B6EDF621E04EF900B05C67 /* WSDatePickerView.h */,
+				63B6EDF721E04EF900B05C67 /* WSDatePickerView.xib */,
+				63B6EDF821E04EF900B05C67 /* WSDatePickerView.m */,
+			);
+			path = WSDatePickerView;
+			sourceTree = "<group>";
+		};
+		63B6EDF921E04EF900B05C67 /* FlatButton */ = {
+			isa = PBXGroup;
+			children = (
+				63B6EDFA21E04EF900B05C67 /* UIImage+FlatUI.m */,
+				63B6EDFB21E04EF900B05C67 /* FUIButton.h */,
+				63B6EDFC21E04EF900B05C67 /* UIColor+FlatUI.h */,
+				63B6EDFD21E04EF900B05C67 /* UIImage+FlatUI.h */,
+				63B6EDFE21E04EF900B05C67 /* FUIButton.m */,
+				63B6EDFF21E04EF900B05C67 /* UIColor+FlatUI.m */,
+			);
+			path = FlatButton;
+			sourceTree = "<group>";
+		};
+		63B6EE0821E0550A00B05C67 /* BasicUI */ = {
+			isa = PBXGroup;
+			children = (
+				63B6EE0921E0552300B05C67 /* BasicViewController.h */,
+				63B6EE0A21E0552300B05C67 /* BasicViewController.m */,
+			);
+			path = BasicUI;
+			sourceTree = "<group>";
+		};
+		63B6EE0C21E059F000B05C67 /* 自定义UI */ = {
+			isa = PBXGroup;
+			children = (
+				63B6EE0D21E05A2000B05C67 /* TopBar.h */,
+				63B6EE0E21E05A2000B05C67 /* TopBar.m */,
+			);
+			path = "自定义UI";
+			sourceTree = "<group>";
+		};
+		63B6EE1021E0623200B05C67 /* 控制单元(网络、单例、工具) */ = {
+			isa = PBXGroup;
+			children = (
+				63B6EE1221E0625100B05C67 /* Singleton.h */,
+				63B6EE1421E0625100B05C67 /* Singleton.m */,
+				63B6EE1321E0625100B05C67 /* Tools.h */,
+				63B6EE1121E0625100B05C67 /* Tools.m */,
+			);
+			path = "控制单元(网络、单例、工具)";
+			sourceTree = "<group>";
+		};
+		63F99DF021E0896C000C91B2 /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				63D2C33921E0ACFE00FE6038 /* iconfont.ttf */,
+				63F99DEF21E0892C000C91B2 /* iconfont.h */,
+			);
+			path = IconFont;
 			sourceTree = "<group>";
 		};
 		A4E6B9FC43F0597AC92E9C73 /* Frameworks */ = {
@@ -261,6 +387,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 63B15C1D21DF2FA90055BCFE;
 			productRefGroup = 63B15C2721DF2FA90055BCFE /* Products */;
@@ -279,7 +407,10 @@
 			files = (
 				63B15C3621DF2FA90055BCFE /* LaunchScreen.storyboard in Resources */,
 				63B15C3321DF2FA90055BCFE /* Assets.xcassets in Resources */,
+				63D2C33A21E0ACFF00FE6038 /* iconfont.ttf in Resources */,
 				63B15C3121DF2FA90055BCFE /* Main.storyboard in Resources */,
+				63B6EE0321E04EF900B05C67 /* WSDatePickerView.xib in Resources */,
+				63F99DE021E081CE000C91B2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,20 +470,29 @@
 				63B15C6C21DF412F0055BCFE /* NSTimer+Additional.m in Sources */,
 				63B15C7121DF412F0055BCFE /* NSDate+Extension.m in Sources */,
 				63B15C7721DF412F0055BCFE /* UIImage+Alpha.m in Sources */,
+				63B6EE0521E04EF900B05C67 /* UIImage+FlatUI.m in Sources */,
+				63B6EE0021E04EF900B05C67 /* QQButton.m in Sources */,
 				63B15C7521DF412F0055BCFE /* NSError+Additional.m in Sources */,
 				63B15C7021DF412F0055BCFE /* EnlargeButton.m in Sources */,
 				63B15C6A21DF412F0055BCFE /* NSString+Hash.m in Sources */,
 				63B15C3921DF2FA90055BCFE /* main.m in Sources */,
 				63B15C7221DF412F0055BCFE /* UIButton+Additional.m in Sources */,
 				63B15C7A21DF412F0055BCFE /* NSSet+HYBUnicodeReadable.m in Sources */,
+				63B6EE0621E04EF900B05C67 /* FUIButton.m in Sources */,
+				63B6EE0F21E05A2000B05C67 /* TopBar.m in Sources */,
 				63B15C2B21DF2FA90055BCFE /* AppDelegate.m in Sources */,
+				63B6EE0421E04EF900B05C67 /* WSDatePickerView.m in Sources */,
 				63B15C6E21DF412F0055BCFE /* NJDBezierCurve.m in Sources */,
 				63B15C7C21DF412F0055BCFE /* NSString+Additional.m in Sources */,
 				63B15C7421DF412F0055BCFE /* UIImage+Additional.m in Sources */,
+				63B6EE1521E0625100B05C67 /* Tools.m in Sources */,
 				63B15C6F21DF412F0055BCFE /* NSMutableAttributedString+Additional.m in Sources */,
 				63B15C6D21DF412F0055BCFE /* UIView+Additional.m in Sources */,
 				63B15C7B21DF412F0055BCFE /* NSArray+Additional.m in Sources */,
 				63B15C6B21DF412F0055BCFE /* UIImage+BlurredFrame.m in Sources */,
+				63B6EE0721E04EF900B05C67 /* UIColor+FlatUI.m in Sources */,
+				63B6EE1621E0625100B05C67 /* Singleton.m in Sources */,
+				63B6EE0B21E0552300B05C67 /* BasicViewController.m in Sources */,
 				63B15C7821DF412F0055BCFE /* NSArray+HYBUnicodeReadable.m in Sources */,
 				63B15C7621DF412F0055BCFE /* NSDictionary+Additional.m in Sources */,
 			);
@@ -365,6 +505,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				63B15C3021DF2FA90055BCFE /* Base */,
+				63F99DE321E082F2000C91B2 /* zh-Hans */,
+				63F99DE621E08309000C91B2 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -373,8 +515,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				63B15C3521DF2FA90055BCFE /* Base */,
+				63F99DE421E082F2000C91B2 /* zh-Hans */,
+				63F99DE721E08309000C91B2 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		63F99DE221E081CE000C91B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F99DE121E081CE000C91B2 /* en */,
+				63F99DE521E082F2000C91B2 /* zh-Hans */,
+				63F99DE821E08309000C91B2 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -384,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -443,6 +598,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

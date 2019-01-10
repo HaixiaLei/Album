@@ -9,10 +9,12 @@
 #ifndef Defines_h
 #define Defines_h
 
-/*UI相关宏定义*/
-
 /*回调函数*/
 typedef void (^Callback)(NSError *error, int code, id response);
+
+
+
+/*UI相关宏定义*/
 
 //屏幕宽
 #define ScreenWidth          ([UIScreen mainScreen].bounds.size.width)
@@ -44,13 +46,61 @@ typedef void (^Callback)(NSError *error, int code, id response);
 #define heightTo4_7(n) (((1.f)*n)/(667.f)*ScreenHeight)
 #define widthTo4_7(n) (((1.f)*n)/(375.f)*ScreenWidth)
 
-//字符
-#define FontForSize(n) [UIFont fontWithName:@"iconFont" size: FontValueBy4(n)];
+//iconfont字符
+#define IconFontOfSize(n) [UIFont fontWithName:@"iconFont" size: FontValueBy4(n)];
 
 
 //颜色
 #define ColorHexWithAlpha(n,a) ([UIColor colorWithRed:((float)((n &0xFF0000) >> 16))/255.0 green:((float)((n & 0xFF00)>> 8))/255.0 blue:((float)(n & 0xFF))/255.0 alpha:a])
 #define ColorHex(n) (ColorHexWithAlpha(n,1.0))
+
+
+
+
+
+
+/*通知定义*/
+#define Noti_Timer_1second                    @"Noti_Timer_1second"
+#define Noti_Network_state_changed            @"Noti_Network_state_changed"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*UI相关宏定义*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
