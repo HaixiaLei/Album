@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, strong) UIView *contentView;
 @property(nonatomic, strong) UIButton *profileBtn;
 @property(nonatomic, strong) UIButton *personInfoBtn;
-
+@property(nonatomic, strong) UILabel *titleLabel;//顶部标题
 
 @property(nonatomic, assign) CGFloat height0;//没登录之前、滚动的时候的高度
 @property(nonatomic, assign) CGFloat height1;//登录之后的高度

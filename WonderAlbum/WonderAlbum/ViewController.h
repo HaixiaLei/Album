@@ -11,9 +11,8 @@
 
 @interface ViewController : BasicViewController<UIScrollViewDelegate>
 
-@property(nonatomic, strong) UIScrollView *mainScroll;
+@property(nonatomic, strong) BasicScrollView *mainScroll;
 @property(nonatomic, strong) TopBar *topbar;
-
 
 @end
 

@@ -34,6 +34,7 @@
 #import "EnlargeButton.h"
 #import "Singleton.h"
 #import "Tools.h"
+#import "BasicScrollView.h"
 
 
 

@@ -18,12 +18,16 @@
     [super viewDidLoad];
     
     //底部Scroll
-    _mainScroll = [[UIScrollView alloc] initWithFrame:self.view.bounds];
+    _mainScroll = [[BasicScrollView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:_mainScroll];
     
     _topbar = [[TopBar alloc] initWithFrame:self.view.bounds];
     _topbar.controller = self;
     [self.view addSubview:_topbar];
+    
+    _mainScroll = [[BasicScrollView alloc] initWithFrame:CGRectMake(0, _topbar.bottom, self.view.width, self.view.height-_topbar.height)];
+    [self.view addSubview:_mainScroll];
+    
     
     
     
